@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Gonzalo Ayuso",
+    "url": "gonzalo123.com"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1"
+  },
+  "description": "Generates cache buster files",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "tasks"
+  ],
+  "keywords": [
+    "ui5",
+    "openui5"
+  ],
+  "license": "MIT",
+  "main": "tasks/cacheBuster.js",
+  "name": "gonzalo123-cachebuster",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalo123/grunt-cachebuster.git"
+  },
+  "version": "1.0.0"
+}
