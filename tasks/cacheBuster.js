@@ -6,7 +6,7 @@ var chalk = require('chalk');
 
 module.exports = function(grunt) {
   var name = 'cacheBuster';
-  var info = 'generates Cache buster files';
+  var info = 'Generates Cache buster files';
 
   var cacheBuster = function() {
     var config = grunt.config.get(name);
