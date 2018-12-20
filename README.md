@@ -19,7 +19,7 @@ When we work with sapui5 application over SCP, we only need to use the cachebust
 
 With this configuration, our framework will use a "cache buster friendly" version of our files and SCP will serve them properly.
 
-For example, when our framework wants the /dist/Component.js file the browser will request /dist/~1541685070813~/Component.js to the server. And the server will server the file /dist/Component.js. As I said before when we work with SCP, our standard build process automatically takes care about it. It creates a file called sap-ui-cachebuster-info.json where we can find all our files with one kind of hash that our build process changes each time our file is changed.
+For example, when our framework wants the /dist/Component.js file the browser will request /dist/\~1541685070813\~/Component.js to the server. And the server will server the file /dist/Component.js. As I said before when we work with SCP, our standard build process automatically takes care about it. It creates a file called sap-ui-cachebuster-info.json where we can find all our files with one kind of hash that our build process changes each time our file is changed.
 
 ```js
 {
@@ -76,7 +76,7 @@ I deploy my grunt task to npm so when I need to use it I only need to:
 
 Install the task
 
-> npm install --save gonzalo123-cachebuster@1.0.0 
+> npm install gonzalo123-cachebuster
 
 Add the task to my gruntfile
 
